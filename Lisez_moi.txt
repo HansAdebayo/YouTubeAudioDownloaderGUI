@@ -1,0 +1,36 @@
+Pour accompagner votre script YouTubeAudioDownloaderGUI.py, voici un exemple de fichier README bien structuré qui explique clairement son utilité, comment l'installer, l'utiliser, et contribuer au projet.
+YouTube Audio Downloader GUI
+
+Le YouTube Audio Downloader GUI est une application Python simple et intuitive pour télécharger l'audio des vidéos YouTube directement sur votre ordinateur en format MP3. Cette application fournit une interface graphique utilisateur (GUI) pour faciliter l'utilisation par des personnes de tous niveaux techniques.
+Caractéristiques
+
+    Interface utilisateur graphique simple et intuitive.
+    Téléchargement d'audio depuis des vidéos YouTube en format MP3.
+    Sélection du dossier de destination pour les téléchargements.
+    Affichage des messages de statut avec des couleurs indiquant le succès ou l'échec du téléchargement.
+
+Prérequis
+
+Avant de démarrer, assurez-vous que vous avez Python 3.x installé sur votre système. Cette application a été testée avec Python 3.9 mais devrait être compatible avec d'autres versions de Python 3.
+Installation
+
+    Clonez ce dépôt sur votre machine locale ou téléchargez le fichier YouTubeAudioDownloaderGUI.py.
+    Ouvrez un terminal ou une invite de commande.
+    Naviguez jusqu'au répertoire où se trouve le fichier téléchargé.
+    Installez les dépendances nécessaires avec la commande suivante :
+
+    pip install pytube tkinter
+
+    Note : tkinter est inclus avec Python standard sur la plupart des installations, mais si vous rencontrez des problèmes, vérifiez votre installation Python.
+
+Utilisation
+
+Pour lancer l'application, exécutez le script Python à partir de votre terminal ou invite de commande :
+
+python YouTubeAudioDownloaderGUI.py
+
+Une fois l'application lancée :
+
+    Collez l'URL de la vidéo YouTube dont vous souhaitez télécharger l'audio dans le champ "URL de la vidéo YouTube".
+    Cliquez sur "Parcourir" pour sélectionner le dossier où vous souhaitez sauvegarder l'audio téléchargé.
+    Cliquez sur "Télécharger Audio" pour commencer le téléchargement. Le statut du téléchargement sera affiché dans l'application.
